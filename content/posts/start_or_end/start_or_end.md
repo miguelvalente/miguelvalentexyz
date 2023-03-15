@@ -1,12 +1,12 @@
 ---
-title: "The start || The End"
+title: "The start || The end"
 date: 2023-03-15T16:47:15+01:00
 draft: false
 ---
 
-Starting something is easy, seeing it through is a different type of beast, a quick look at the ruins of my __deving__ folder cements the though. But with time I've started to get better at persevering with ideas/projects. But It took a while, took some training. It always takes a bit longer with me, my threshold to change paths is quite high I guess.
+Starting something is easy, seeing it through is a different type of beast and a quick look at the ruins of my __deving__ folder comfirms it. But with time I got better at sticking to  my ideas and projects. It took a while, took some training. It always takes a bit longer that what I think.Having that said I'll revive one idea that didn't take off.
 
-On the topic of not seing things through I'll revive another idea that didn't take off. Exactly two years ago I decided to start a _blog-thing_. This was my first post out of three over the couple of years.
+Exactly two years ago I decided to start a _blog-thing_. I don't like the word __blog__  This was my first post out of three over a couple of years.
 
 > 26/03/2021
 >

@@ -56,7 +56,7 @@ enableEmoji = true
   description = "my personal website"
 
 [params.author]
-  avatar = "miguel.jpg"
+  avatar = "panteao.png"
   # intro = "miguelvalente"
   name = "Miguel Valente"
   # description = "Hi my name is Miguel check by"
