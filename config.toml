@@ -1,0 +1,78 @@
+title = "miguelvalente.xyz"
+baseURL = 'https://miguelvalente.xyz/'
+languageCode = 'en-us'
+theme = "hba-revamped"
+
+# To enable Google Analytics 4 (gtag.js) provide G-MEASUREMENT_ID below.
+# To disable  Google Analytics, simply leave the field empty or remove the next line
+googleAnalytics = '' # G-MEASUREMENT_ID
+
+
+# Enable emojis globally
+enableEmoji = true
+
+# set markup.highlight.noClasses=false to enable code highlight
+[markup]
+  [markup.highlight]
+    noClasses = false
+
+[menu]
+  # [[menu.main]] 101010101010101010
+  #   # The page reference (pageRef) is useful for menu highlighting
+  #   # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
+  #   pageRef="/"
+  #   name = 'Home'
+  #   url = '/'
+  #   weight = 10
+  [[menu.main]]
+    pageRef="posts"
+    name = 'posts'
+    url = '/posts/'
+    weight = 10
+  [[menu.main]]
+    pageRef="about"
+    name = 'about'
+    url = '/about/'
+    weight = 20
+  [[menu.main]]
+    pageRef="projects"
+    name = 'projects'
+    url = '/projects/'
+    weight = 30
+  # [[menu.main]]
+  #   pageRef="projects"
+  #   name = 'album_reviews'
+  #   url = '/album_reviews/'
+  #   weight = 40
+  [[menu.main]]
+    pageRef="resume"
+    name = 'resume'
+    url = '/cv.pdf'
+    weight = 50
+
+[params]
+  sitename = "miguelvalente.xyz"
+  defaultColor = "dark" # set default color mode: dark or light
+  description = "my personal website"
+
+[params.author]
+  avatar = "miguel.jpg"
+  # intro = "miguelvalente"
+  name = "Miguel Valente"
+  # description = "Hi my name is Miguel check by"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/miguelvalente"
+
+# [[params.socialIcons]]
+# name = "twitter"
+# url = "https://twitter.com"
+
+[[params.socialIcons]]
+name = "RSS"
+url = "index.xml"
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto://miguelvalente@pm.me"
