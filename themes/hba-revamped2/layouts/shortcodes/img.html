@@ -1,0 +1,15 @@
+<!--
+	class: class of the figure
+	link: url the image directs to
+	alt: alternative text
+	caption: caption
+	mouse: what the image says when moused over ("title" in HTML)
+-->
+	<img src="{{ .Get "src" }}" 
+			width="{{ .Get "width"}}"
+			height="{{ .Get "height"}}"
+			href="{{ .Get "href"}}"
+		{{ with .Get "height=" }}height="{{.}}"{{ end -}}
+	     {{- with .Get "mouse" }} title="{{.}}"{{ end -}}
+	     {{- with .Get "alt" }} alt="{{.}}"{{ end -}}
+	>

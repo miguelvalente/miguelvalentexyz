@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+    {{- partial "head.html" . -}}
+    <body data-theme = "{{ .Site.Params.defaultColor }}" class="notransition">
+        {{- partial "scriptsBodyStart.html" . -}}
+        {{- partial "header.html" . -}}
+        <div class="wrapper">
+            {{ partial "bio" . }}
+            <main aria-label="Content">
+                <!-- <h3 class="posts-item-note" aria-label="Recent Posts">Recent Posts</h3> -->
+                {{/* Show last 5 posts in reverse date order */}}
+                {{ $posts := .Site.RegularPages.ByDate.Reverse }}
+                {{ range $posts }}
+                    {{ if eq .Type "posts" }}
+                        {{ partial "postCard" . }}
+                    {{ end }}
+                {{ end }}
+            </main>
+        </div>
+        {{- partial "footer.html" . -}}
+        {{- partial "scriptsBodyEnd.html" . -}}
+    </body>
+</html>
