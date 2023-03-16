@@ -4,7 +4,7 @@ date: 2023-03-15T13:31:44+01:00
 ---
 
 
-{{< img_square src="/miguel.jpeg" >}}
+{{< img_square src="/miguel.webp" >}}
 
  Hi, my name is Miguel and I have over 10k hours surfing the web so I guess I consider myself an expert at staring at screens while life withers away. Pic related. I have a love/hate relationship with technology, some sort of Stockholm syndrome where I'm both the kidnapper and the kidnapee. I love how much I hate and I hate how much I love it. Malaise giving technology, freedom of expression giving technology.
 
