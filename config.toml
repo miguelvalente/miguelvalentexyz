@@ -39,11 +39,11 @@ enableEmoji = true
     name = 'projects'
     url = '/projects/'
     weight = 30
-  # [[menu.main]]
-  #   pageRef="projects"
-  #   name = 'album_reviews'
-  #   url = '/album_reviews/'
-  #   weight = 40
+  [[menu.main]]
+    pageRef="listening_to"
+    name = 'listening_to🎵'
+    url = '/listening_to/'
+    weight = 40
   [[menu.main]]
     pageRef="resume"
     name = 'resume'
