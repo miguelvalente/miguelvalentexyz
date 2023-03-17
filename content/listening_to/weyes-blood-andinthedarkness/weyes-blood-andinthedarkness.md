@@ -12,7 +12,7 @@ draft: false
     caption="Weyes Blood - And in the Darkness Hearts Aglow"
     >}}
 
-Super adicted to this one. Favorite tracks:
+Super addicted to this one. Favorite tracks:
  - Hearts Aglow
  - It's not Just Me, It's Everybody
  - Children Of The Empire
