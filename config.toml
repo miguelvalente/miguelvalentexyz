@@ -40,15 +40,15 @@ enableEmoji = true
     url = '/projects/'
     weight = 30
   [[menu.main]]
-    pageRef="listening_to"
-    name = 'listening_to🎵'
-    url = '/listening_to/'
-    weight = 40
-  [[menu.main]]
     pageRef="resume"
     name = 'resume'
     url = '/cv.pdf'
     weight = 50
+  [[menu.main]]
+    pageRef="listening_to"
+    name = 'listening_to🎵'
+    url = '/listening_to/'
+    weight = 60
 
 [params]
   sitename = "miguelvalente.xyz"
