@@ -24,19 +24,30 @@
     // or when the user clicks outside the menu
     // the menu is a ul element with the class "triger"
     const cbox = document.getElementById("menu-trigger");
-    cbox.addEventListener("change", function () {
-      const area = document.querySelector(".wrapper");
-      console.log('blur');
+    const cbox_menu = document.getElementById("menu-div");
+    const wrapper = document.querySelector(".wrapper");
+    const menu_list = document.getElementById("menu-list");
+    const mode = document.getElementById("mode");
+    cbox.addEventListener("click", function () {
+      console.log('cbox');
       this.checked
-        ? area.classList.add("blurry")
-        : area.classList.remove("blurry");
+        ? (
+          // shows menu
+          wrapper.classList.add("blurry"),
+          cbox_menu.classList.remove("remove-display"),
+          menu_list.classList.remove("remove-display"),
+          mode.classList.remove("remove-display")
+        )
+        : (
+          wrapper.classList.remove("blurry")
+        );
     });
 
-    const cbox_menu = document.getElementsById("over");
-    console.log(cbox_menu);
-    cbox_menu.addEventListener('change', function() {
-      console.log('mouse');
-      isMouseDown = true;
+    cbox_menu.addEventListener("click", function () {
+      menu_list.classList.remove("blurry")
+      mode.classList.add("remove-display");
+      wrapper.classList.remove("blurry");
+      cbox_menu.classList.add("remove-display");
     });
 
   })();

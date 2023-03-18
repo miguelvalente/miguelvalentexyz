@@ -10,8 +10,8 @@
       </span>
     </label>
 
-      <div class="trigger" >
-      <ul class="trigger-container">
+      <div class="trigger" id="menu-div" >
+      <ul class="trigger-container" id ='menu-list'>
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
           <li>
