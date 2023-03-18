@@ -1,6 +1,7 @@
 <article class="post-item">
     <h4 class="post-item-title">
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
+<a style="text-decoration: underline; text-underline-offset: 4px;" href="{{ .Permalink }}">{{ .Title }}</a>
+
     </h4>
     {{/*  format date string to create an ISO 8601 string  */}}
     {{ $ISO_date := "2006-01-02T15:04:05Z0700" }}

@@ -10,8 +10,8 @@
       </span>
     </label>
 
-      <div class="trigger" id="menu-div" >
-      <ul class="trigger-container" id ='menu-list'>
+      <div class="trigger" >
+      <ul class="trigger-container" >
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
           <li>
@@ -44,6 +44,5 @@
         {{ partial "svgs/sun.svg" (dict "height" 21 "width" 21 "class" "mode-moon" "title" "DARK") . }}
       </a>
     </div>
-
   </nav>
 </div>
