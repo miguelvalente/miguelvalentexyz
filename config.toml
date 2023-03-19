@@ -10,6 +10,10 @@ googleAnalytics = '' # G-MEASUREMENT_ID
 
 # Enable emojis globally
 enableEmoji = true
+enableGitInfo = true
+
+[frontmatter]
+  lastmod = [':git', 'lastmod', 'date', 'publishDate']
 
 # set markup.highlight.noClasses=false to enable code highlight
 [markup]

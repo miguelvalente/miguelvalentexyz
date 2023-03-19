@@ -8,4 +8,14 @@
     <time class="post-item-meta" datetime="{{ .Date.Format $ISO_date }}">
         {{ .Date.Format "02-01-2006" }}
     </time>
+
+<!-- {{ $lastmod := .Lastmod.UTC.Format "Jan 2, 2006" }}
+{{$lastmod}} -->
+<!-- {{ $date := .Date.UTC.Format "Jan 2, 2006" }}
+{{ $lastmod := .Lastmod.UTC.Format "Jan 2, 2006" }}
+Published {{ $date }}
+{{ if and (ne $lastmod $date) (gt .Lastmod .Date) }}
+    <br/>Updated {{ $lastmod }}
+{{ end }} -->
+
 </article>

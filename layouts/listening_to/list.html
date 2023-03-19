@@ -3,6 +3,7 @@
     <header class="header">
         <h1 class="header-title center">{{ .Title }}</h1>
     </header>
+
     <main class="page-content" aria-label="Content">
         {{ $mysection := ($.Site.GetPage "section" .Section).Pages }}
         <!-- Prints the latest album  -->
@@ -10,7 +11,7 @@
             {{ partial "album" . }}
         {{ end }}
 
-
+        <h2>listened_to</h2>
         <!-- Lists all albums except the last one  -->
         {{ $postCount := sub (len $mysection) 1}}
         {{ range last $postCount $mysection }}
