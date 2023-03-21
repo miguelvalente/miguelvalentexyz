@@ -24,11 +24,11 @@ enableEmoji = true
   #   name = 'Home'
   #   url = '/'
   #   weight = 10
-  [[menu.main]]
-    pageRef="posts"
-    name = 'posts'
-    url = '/posts/'
-    weight = 10
+  # [[menu.main]]
+  #   pageRef="posts"
+  #   name = 'posts'
+  #   url = '/posts/'
+  #   weight = 10
   [[menu.main]]
     pageRef="about"
     name = 'about'
@@ -52,7 +52,7 @@ enableEmoji = true
 
 [params]
   sitename = "miguelvalente.xyz"
-  defaultColor = "dark" # set default color mode: dark or light
+  defaultColor = "light" # set default color mode: dark or light
   description = "my personal website"
 
 [params.author]
