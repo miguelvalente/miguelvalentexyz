@@ -101,14 +101,14 @@ b {
 hr {
   border-bottom: 0;
   border-style: solid;
-  border-color: $hline-ligh;
+  border-color: $hline-light;
 }
 
 // kbd tag
 kbd {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
-  border: 1px solid $hline-ligh;
+  border: 1px solid $hline-light;
   border-radius: 2px;
   color: $heading-light;
   display: inline-block;
@@ -316,13 +316,13 @@ table {
   thead {
     font-weight: $bold-weight;
     color: $heading-light;
-    border-bottom: 1px solid $hline-ligh;
+    border-bottom: 1px solid $hline-light;
   }
 
   th,
   td,
   tr {
-    border: 1px solid $hline-ligh;
+    border: 1px solid $hline-light;
     padding: 2px 7px;
   }
 }

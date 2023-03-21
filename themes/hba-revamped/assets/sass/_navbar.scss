@@ -6,7 +6,7 @@
     position: relative;
     margin-right: auto;
     margin-left: auto;
-    border-bottom: 1px solid $hline-ligh;
+    border-bottom: 1px solid $hline-light;
     padding: .5rem .3rem;
     @extend %clearfix;
   }
@@ -146,7 +146,7 @@
       text-align: center;
       height: 50px;
       background-color: $background-light;
-      border-bottom: 1px solid $hline-ligh;
+      border-bottom: 1px solid $hline-light;
   
       a#mode {
         left: 10px;

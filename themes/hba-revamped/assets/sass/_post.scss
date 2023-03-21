@@ -38,7 +38,7 @@
   }
 
   span[itemprop="author"] {
-    border-bottom: 1px dotted $hline-ligh;
+    border-bottom: 1px dotted $hline-light;
   }
 }
 
@@ -169,7 +169,7 @@
   display: flex;
   position: relative;
   margin-top: 5em;
-  border-top: 1px solid $hline-ligh;
+  border-top: 1px solid $hline-light;
   line-height: 1.4;
 
   .post-nav-item {
@@ -225,7 +225,7 @@
     .post-nav-item:nth-child(even) {
       border-left: 0;
       padding-left: 0;
-      border-top: 1px solid $hline-ligh;
+      border-top: 1px solid $hline-light;
     }
   }
 }
