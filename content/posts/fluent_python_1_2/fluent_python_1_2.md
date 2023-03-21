@@ -6,24 +6,20 @@ draft: false
 
 {{< img_square src="/posts/fluent_python_1_2/book.webp" >}}
 
-To look at this massive paper brick in front of me and to say that I'm going to read it from front to cover not only seems impossible, but it also seems idiotic and I ask myself if _"I should study Python or practice Python?"_.
+Looking at this massive paper brick in front of me and saying that I’m going to read it from front to cover not only seems impossible, but it also seems idiotic and forces me to ask if “I should study Python or practice Python?”.
 
-In truth I already went through the first two chapters so I know the answer. Do both 🫥
-
-While reading I learned new stuff that seems unlikely to be found while trying to write code, especially if I'm not mucking around. Still, I could be wrong.
-
-I'll be doing posts about the chapters as I read the book so that I:
+In truth, I already went through the first two chapters, so I know the answer. Do both 🫥. While reading, I learned new stuff that seems unlikely to be found if you stick to just writing code. The value of these findings is another discussion in itself. So, sitting my ass down for some hours and having dedicated study time is something I'll do more often and also post about as I read the book so that I:
  1. have some sort of summary of the book on demand
  2. force myself to at least summarize the chapter in a sentence or two
- 3. hold my self accountable by risking public shame that most likely none will see
+ 3. hold myself accountable by risking public shame that, most likely, none will see
  4. virtue signal
 
  ------------------
 
 
-# Chapter 1 -- The Python Data Model
+[#](#) Chapter 1 -- The Python Data Model
 
-This chapter introduces you to the Python's Data Model, which translates to how the implementation of python's special methods,  `__*__`, on your custom objects enables you to use them as if built-in Python types.
+This chapter introduces you to Python's Data Model, which translates to how the implementation of python's special methods,  `__*__`, on your custom objects enables you to use them as if they were built-in Python types.
 
 {{< details "__Quirks, Notes & Whatever Else__" >}}
 -  if a collection has no `__contains__` method the `in` operator does a sequential check. [p.13]
@@ -34,7 +30,7 @@ This chapter introduces you to the Python's Data Model, which translates to how 
 
 
 # Chapter 2 -- An Array of Sequences
-This chapter is all about sequence types and the different ways you can operate on them barring some quirks due to their im/mutability. It also covers destructing or how to break apart an object into its components. It also covers slicing but that's something you pick up along the way. Also good to keep in mind augmented assignments a.k.a. ```+=```, ```/=```, etc are not atomic operations.
+This chapter discusses sequence types and how you can operate on them, barring some quirks due to their im/mutability. It also covers destructing, or how to break apart an object into its components. It also covers slicing, which you mostly pick up while coding. Also good to keep in mind augmented assignments a.k.a. ```+=```, ```/=```, etc are not atomic operations.
 
 {{< details "__Quirks, Notes & Whatever Else__" >}}
 
