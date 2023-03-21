@@ -11,7 +11,8 @@
             {{ partial "album" . }}
         {{ end }}
 
-        <h2>listened_to</h2>
+
+        <h3>listened_to 🎶</h3>
         <!-- Lists all albums except the last one  -->
         {{ $postCount := sub (len $mysection) 1}}
         {{ range last $postCount $mysection }}
