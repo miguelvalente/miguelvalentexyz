@@ -1,17 +1,17 @@
 //////////////// 1. Light Colors /////////////////
-$text-base-color: #434648;
-$text-link-blue: #003fff;
-$text-link-blue-active: #0036c7;
+$text-base-color: #4b433a;
+$text-link-blue: #ad8200;
+$text-link-blue-active: #ad8200;
 $bloquote-border: #c4c8cc;
 $blockquote-text: #525b66;
 $inline-code-text: #333638;
-$inline-code-bg: #d8dbe2;
+$inline-code-bg: #e2d8d8;
 
-$black: #0d122b;
-$light: #ececec;
-$smoke: #d2c7c7;
-$gray: #6b7886;
-$white: #fff;
+$heading-light: #413a35;
+$hline-ligh: #ececec;
+$smoke: #c7d2c8;
+$date-light: #866b6f;
+$background-light: #eae4e1;
 
 //////////////// 2. Dark Colors /////////////////
 // $dark-text-base-color: #babdc4;
@@ -51,10 +51,10 @@ $small-font-size: $base-font-size * 0.875;
 $base-line-height: 1.85;
 
 // Font weight
-// $light-weight: 300; // uncomment if necessary
+// $hline-ligh-weight: 300; // uncomment if necessary
 $normal-weight: 400;
 $bold-weight: 700;
-// $black-weight: 900; // uncomment if necessary
+// $heading-light-weight: 900; // uncomment if necessary
 
 //////////////// 4.Responsive design (media queries) /////////////////
 $wide-size: 890px;
