@@ -1,0 +1,20 @@
+<style>
+highlight-wrapper {
+    position: relative;
+}
+
+highlight-link {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+</style>
+
+<div class="highlight-wrapper">
+    <div class="highlight-before">{{ .Get 0 }}</div>
+    {{ if len .Params | eq 2 }}
+        {{ highlight (trim .Inner "\n\r") (.Get 0) (.Get 1) }}
+    {{ else }}
+        {{ highlight (trim .Inner "\n\r") (.Get 0) "" }}
+    {{ end }}
+</div>
