@@ -12,7 +12,7 @@
     height: 200px;
     // border-radius: 100%;
     user-select: none;
-    background-color: $black;
+    background-color: $heading-light;
     -ms-user-select: none;
     -webkit-user-select: none;
     -webkit-animation: 0.5s ease-in forwards fadein;
@@ -59,7 +59,7 @@ body {
   overflow-x: hidden;
   position: relative;
   color: $text-base-color;
-  background-color: $white;
+  background-color: $background-light;
   font: $normal-weight #{$base-font-size}/#{$base-line-height} $sans-family;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
@@ -94,23 +94,23 @@ figure,
 strong,
 b {
   font-weight: $bold-weight;
-  color: $black;
+  color: $heading-light;
 }
 
 // horizontal rule
 hr {
   border-bottom: 0;
   border-style: solid;
-  border-color: $light;
+  border-color: $hline-light;
 }
 
 // kbd tag
 kbd {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
-  border: 1px solid $light;
+  border: 1px solid $hline-light;
   border-radius: 2px;
-  color: $black;
+  color: $heading-light;
   display: inline-block;
   font-size: $small-font-size;
   line-height: 1.4;
@@ -118,7 +118,7 @@ kbd {
   margin: 0 0.1em;
   font-weight: $bold-weight;
   padding: 0.01em 0.4em;
-  text-shadow: 0 1px 0 $white;
+  text-shadow: 0 1px 0 $background-light;
 }
 
 // Image
@@ -172,7 +172,7 @@ li {
   padding-top: 1px;
 
   &:before {
-    color: $black;
+    color: $heading-light;
   }
 
   > ul,
@@ -189,7 +189,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: $black;
+  color: $heading-light;
   font-weight: $bold-weight;
   & + ul,
   & + ol {
@@ -315,14 +315,14 @@ table {
 
   thead {
     font-weight: $bold-weight;
-    color: $black;
-    border-bottom: 1px solid $light;
+    color: $heading-light;
+    border-bottom: 1px solid $hline-light;
   }
 
   th,
   td,
   tr {
-    border: 1px solid $light;
+    border: 1px solid $hline-light;
     padding: 2px 7px;
   }
 }
@@ -338,7 +338,7 @@ table {
 mark,
 ::selection {
   background: #fffba0;
-  color: $black;
+  color: $heading-light;
 }
 
 // Github Gist clear border

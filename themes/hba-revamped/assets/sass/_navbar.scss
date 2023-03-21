@@ -6,7 +6,7 @@
     position: relative;
     margin-right: auto;
     margin-left: auto;
-    border-bottom: 1px solid $light;
+    border-bottom: 1px solid $hline-light;
     padding: .5rem .3rem;
     @extend %clearfix;
   }
@@ -61,13 +61,13 @@
       .mode-moon {
         display: block;
         line {
-          stroke: $black;
+          stroke: $heading-light;
           fill: none;
         }
   
         circle {
-          fill: $black;
-          stroke: $black;
+          fill: $heading-light;
+          stroke: $heading-light;
         }
       }
       .mode-sunny {
@@ -112,7 +112,7 @@
     }
   
     .menu-link {
-      color: $black;
+      color: $heading-light;
       line-height: $base-line-height + 0.4;
       text-decoration: none;
       padding: .3rem .5rem;
@@ -145,8 +145,8 @@
       z-index: 2;
       text-align: center;
       height: 50px;
-      background-color: $white;
-      border-bottom: 1px solid $light;
+      background-color: $background-light;
+      border-bottom: 1px solid $hline-light;
   
       a#mode {
         left: 10px;
