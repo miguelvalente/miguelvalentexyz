@@ -46,7 +46,7 @@ enableEmoji = true
     weight = 50
   [[menu.main]]
     pageRef="listening_to"
-    name = 'listening_to🎵'
+    name = 'listening_to'
     url = '/listening_to/'
     weight = 60
 
