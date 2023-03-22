@@ -1,0 +1,45 @@
+<style>
+/* For NEXTPREV.HTML */
+/* $spacing-full: 30px
+$wide-size: 890px */
+#nextprev {
+    font-size: 80%;
+    overflow: hidden;
+    /* position: fixed; */
+    margin: 4% 4% 0px 4%;
+	/* The container for both the previous and next articles. */
+
+    /* height: 40px;
+    max-width: calc(890px - (30px * 2));
+    max-width: -webkit-calc(890px - (30px * 2));
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    border-bottom: 1px solid #ececec;
+    padding: .5rem .3rem; */
+}
+#prevart {
+	float: right ;
+	text-align: right ;
+}
+#nextart {
+	float: left ;
+	text-align: left ;
+}
+#nextart,#prevart {
+	max-width: 33% ;
+    /* margin-bottom: 10%; */
+}
+</style>
+
+{{ if or .NextInSection .PrevInSection -}}
+    <div id="nextprev">
+        {{- with .NextInSection -}}
+        <a href="{{ .RelPermalink}}"><div id="nextart">Next:<br>{{.Title}}</div></a>
+        {{ end -}}
+        {{- with .PrevInSection }}
+        <a href="{{ .RelPermalink}}"><div id="prevart">Previous:<br>{{.Title}}</div></a>
+        {{ end -}}
+    </div>
+{{ end -}}

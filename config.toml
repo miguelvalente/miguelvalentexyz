@@ -54,6 +54,7 @@ enableEmoji = true
   sitename = "miguelvalente.xyz"
   defaultColor = "light" # set default color mode: dark or light
   description = "my personal website"
+  nextprev = true
 
 [params.author]
   avatar = "panteao.webp"
