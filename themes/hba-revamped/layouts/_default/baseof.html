@@ -5,6 +5,7 @@
         {{- partial "scriptsBodyStart.html" . -}}
         {{- partial "header.html" . -}}
         {{- block "main" . }}{{- end }}
+        {{ if .Param "nextprev" }}{{ partial "nextprev.html" . -}}{{ end -}}
         {{- partial "footer.html" . -}}
         {{- partial "scriptsBodyEnd.html" . -}}
     </body>
