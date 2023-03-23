@@ -8,7 +8,7 @@ draft: false
 
 Looking at this massive paper brick in front of me and saying that I’m going to read it from front to cover not only seems impossible, but it also seems idiotic and forces me to ask if “I should study Python or practice Python?”.
 
-In truth, I already went through the first two chapters, so I know the answer. Do both 🫥. While reading, I learned new stuff that seems unlikely to be found if you stick to just writing code. __The value of these findings is another discussion in itself__. So from now on, I'll sit my ass down for some hours and have dedicated study time. I'll also be making new postas as I read the book so that I:
+In truth, I already went through the first two chapters, so I know the answer. Do both 🫥. While reading, I learned new stuff that seems unlikely to be found if you stick to just writing code. __The value of these findings is another discussion in itself__. So from now on, I'll sit my ass down for some hours and have dedicated study time. I'll also be making new post as I read the book so that I:
  1. have some sort of summary of the book on demand
  2. force myself to at least summarize the chapter in a sentence or two
  3. hold myself accountable by risking public shame that, most likely, none will see
