@@ -1,7 +1,7 @@
 ---
 title: "Biosphere Substrata"
 date: 2023-03-23T10:41:39+01:00
-draft: true
+draft: false
 ---
 
 
@@ -12,5 +12,9 @@ draft: true
     caption="Bioshere - Substrata"
     >}}
 
-Listen to this one you like albums that transport you to dystopian worlds
-of glitches, reverbs and ethereal immersion. I'm listening to 2017 re-issue wich contains a seconds CD full of yummi tracks. It reminds me of [Vangelis - Blade Runner](https://www.discogs.com/master/12717-Vangelis-Blade-Runner) soundtrack. I found this album in the most fitting of places, a [Web 1.0](http://music.hyperreal.org/epsilon/info/2001_classic_ambient.html) . It ranked number 1.
+Ghostly soundscapes, echoey salt&peppered voices, reverbs, repetition, rain, wind, and ethereal immersion in dystopian worlds akin to Blade Runner; I'm a sucker for this aesthetic.
+> for similar vibes listen to [Vangelis - Blade Runner](https://www.discogs.com/master/12717-Vangelis-Blade-Runner) entire album, but if you're in a rush, at least try out  _Memories of Green_.
+
+I found this album in the most fitting place, a WEB 1.0 capsule [rank of classic ambient albums](http://music.hyperreal.org/epsilon/info/2001_classic_ambient.html). Like the album, the raw HTML fulfills the yearning for simplicity in a bloated world.
+
+>Favorite Tracks: Kobresia, The Things I Tell You, Sphere of No-Form
