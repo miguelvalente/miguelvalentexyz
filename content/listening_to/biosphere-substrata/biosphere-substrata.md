@@ -1,5 +1,5 @@
 ---
-title: "Biosphere Substrata"
+title: "Biosphere - Substrata"
 date: 2023-03-23T10:41:39+01:00
 draft: false
 ---
