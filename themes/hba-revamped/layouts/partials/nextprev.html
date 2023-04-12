@@ -27,19 +27,24 @@ $wide-size: 890px */
 	float: left ;
 	text-align: left ;
 }
-#nextart,#prevart {
-	max-width: 33% ;
-    /* margin-bottom: 10%; */
+
+#nextart, #prevart {
+  border: 2px solid #6c757d;
+  padding: 4px 8px;
+  border-radius: 10px;
 }
+
+
 </style>
 
 {{ if or .NextInSection .PrevInSection -}}
     <div id="nextprev">
         {{- with .NextInSection -}}
-        <a href="{{ .RelPermalink}}"><div id="nextart">Next:<br>{{.Title}}</div></a>
+        <a href="{{ .RelPermalink}}"><div id="nextart" style="font-weight: bold;">Next:<br>{{.Title}}</div></a>
         {{ end -}}
         {{- with .PrevInSection }}
-        <a href="{{ .RelPermalink}}"><div id="prevart">Previous:<br>{{.Title}}</div></a>
+        <a href="{{ .RelPermalink}}"><div id="prevart" style="font-weight: bold;">Previous:<br>{{.Title}}</div></a>
         {{ end -}}
     </div>
 {{ end -}}
+
