@@ -1,5 +1,5 @@
 ---
-title: "👂Whisperer: Automatic Text-Audio ML ready dataset maker"
+title: "👂 Whisperer: Automatic Text-Audio ML ready dataset maker"
 date: 2023-03-15T16:05:49+01:00
 draft: false
 ---
