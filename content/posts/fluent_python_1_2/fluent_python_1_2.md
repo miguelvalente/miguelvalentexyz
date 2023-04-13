@@ -6,16 +6,18 @@ draft: false
 
 {{< img_square src="/posts/fluent_python_1_2/book.webp" >}}
 
-Looking at this massive paper brick in front of me and saying that I’m going to read it from front to cover not only seems impossible, but it also seems idiotic and forces me to ask if “I should study Python or practice Python?”.
+Looking at this massive paper brick in front of me and saying that I’m going to read it from front to cover not only seems impossible, but it also seems idiotic and forces me to ask if “I should study Python or practice Python?”. The dilemma is real, but there must be a balance to strike.
 
-In truth, I already went through the first two chapters, so I know the answer. Do both 🫥. While reading, I learned new stuff that seems unlikely to be found if you stick to just writing code. __The value of these findings is another discussion in itself__. So from now on, I'll sit my ass down for some hours and have dedicated study time. I'll also be making new post as I read the book so that I:
- 1. have some sort of summary of the book on demand
- 2. force myself to at least summarize the chapter in a sentence or two
- 3. hold myself accountable by risking public shame that, most likely, none will see
- 4. virtue signal
+In truth, I already went through the first two chapters, so I know the answer. Do both 🫥. While reading, I learned new stuff that seems unlikely to be found if you stick to just writing code. __The applicability of these findings is a whole other conversation__. So from now on, I’ll sit my ass down for some hours and have dedicated study time. I’ll also be making new post as I read the book so that I:
+
+1. have some sort of summary of the book on demand, making it easier to revisit key concepts
+2. force myself to at least summarize the chapter in a sentence or two, thus solidifying my understanding
+3. hold myself accountable by risking public shame that, most likely, none will see, but it's still a great motivator
+4. virtue signal, because who doesn't love a little self-promotion?
+
+&nbsp;
 
  ------------------
-
 
 # Chapter 1 -- The Python Data Model
 
