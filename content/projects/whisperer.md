@@ -39,7 +39,6 @@ metadata.txt
 ```
 peters_0.wav|Beautiful is better than ugly.
 peters_1.wav|Explicit is better than implicit.
-
 ```
 
 ## Key Features

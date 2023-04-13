@@ -4,7 +4,7 @@ date: 2023-04-12T21:03:35+02:00
 draft: false
 ---
 
-![logo](https://github.com/miguelvalente/imagemangler/blob/master/logo.png?raw=true)
+[![logo](https://github.com/miguelvalente/imagemangler/blob/master/logo.png?raw=true)](https://github.com/miguelvalente/whisperer)
 
 
 Image Mangler is a command-line tool to deteriorate an image iteratively using lossy algorithms.
