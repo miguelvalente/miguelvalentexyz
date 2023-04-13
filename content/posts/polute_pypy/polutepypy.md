@@ -1,7 +1,7 @@
 ---
 title: "☢ ️️Polluting Pypy - Like a Boss ☢️"
 date: 2023-04-13T16:59:15+02:00
-draft: false
+draft: true
 ---
 
 Welcome to yet another shitty garbanzo tutorial on the internet, that literally no one asked for. This one _teaches_ you how to pollute Pypy with a shitty and useless package. It's important that your package is extra shitty and useless otherwise you will be adding value to something. No. Not allowed. You're tool must be shitty. The focus of this post is not on utility.
