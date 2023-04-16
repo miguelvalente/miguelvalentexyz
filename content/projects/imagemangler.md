@@ -4,14 +4,10 @@ date: 2023-04-12T21:03:35+02:00
 draft: false
 ---
 
-<p align="center">
-  <a href="https://github.com/miguelvalente/imagemangler"><img src="https://github.com/miguelvalente/imagemangler/blob/master/assets/logo.png?raw=true" alt="ImageMangler"></a>
-</p>
-<p align="center">
-    <em>Image Mangler is a command-line tool to deteriorate an image iteratively using lossy algorithms.</em>
-</p>
+[![logo](https://github.com/miguelvalente/imagemangler/blob/master/assets/logo.png?raw=true)](https://github.com/miguelvalente/imagemangler)
 
----
+
+Image Mangler is a command-line tool to deteriorate an image iteratively using lossy algorithms.
 
 # Installation
 
@@ -43,6 +39,5 @@ imagemangler --help
 ```
 
 ----
-<p align="center">
-  <a href="https://github.com/miguelvalente/imagemangler"><img src="https://github.com/miguelvalente/imagemangler/blob/master/assets/imagemangler.gif?raw=true" alt="ImageMangler"></a>
-</p>
+
+[![logo](https://github.com/miguelvalente/imagemangler/blob/master/assets/imagemangler.gif?raw=true)](https://github.com/miguelvalente/imagemangler)
