@@ -4,17 +4,18 @@ date: 2023-04-13T16:59:15+02:00
 draft: false
 ---
 
-{{< img_square src="/posts/polute_pypi/speed.webp" >}}
+{{< img_square src="/posts/polute_pypi/speed.jpeg" >}}
 
 Welcome to yet another garbanzo tutorial on the internet that no one asked for. This one _teaches_ you how to pollute PyPI with a shitty and useless package as fast as possible. We're moving fast. Agility. We're dialing in the motions of getting from point A to point B. Parkour. __Warning__: This package will do nothing.
 
 To compete in this speedrun category, you need to complete six achievements:
--  version dependencies
--  all commits are thoughtful and atomic
--  write a test and pass it
--  automate testing
--  write a README.md
--  packaging and publishing to PyPI
+- [version dependencies](#version-your-dependencies)
+- [all commits are thoughtful and atomic](#all-commits-are-thoughtful)
+- [write a test and pass it](#write-a-test-and-pass-it)
+- [automate testing](#automate-the-testing)
+- [write a README.md](#write-a-readme)
+- [packaging and publishing to PyPI](#packaging-and-publishing-to-pypi)
+
 
 Some achievements contain an intro/fetishization as to why I picked them. The hardcore speedrunner can ignore them and follow along with the instructions, but for the trivia nerds out there, feel free to check them.
 
@@ -191,4 +192,4 @@ Step 5: Publish your project
 poetry build
 ```
 
-And there you have it – a complete guide on how to publish a Python package that adds absolutely no value to the world. Congratulations, you've achieved peak annoyance, you're a speedrunner.
+And there you have it – a complete guide on how to publish a Python package that adds absolutely no value to the world. Perhaps you picked up a thing or two along the way, but let's be real, this was pretty useless. Congratulations, you've achieved peak annoyance, you're a python speedrunner, 
