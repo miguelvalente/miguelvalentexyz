@@ -51,7 +51,7 @@ Step 2: Enter the new project and open your editor of choice. If you run `tree` 
 
 
 {{< details "backstory on Conventional Commits" >}}
-Welcome to Conventional Commits, your new best bud. This cool cat helps you craft thoughtful commits, and it even adds emojis with predefined meanings. Check out https://gitmoji.dev/ and the commit history of this mini-useless project for a taste. You might roll your eyes at another dev tool for a "non-existing problem", specially for something trivial like commit messages. But hey, it's about letting the tool guide your thoughts, man.
+Welcome to Conventional Commits, your new best bud. This cool cat helps you craft thoughtful commits, and it even adds emojis with predefined meanings. Check out https://gitmoji.dev/ and the commit history of this [mini-useless](https://miguelvalente.xyz/projects/imagemangler/) project for a taste. You might roll your eyes at another dev tool for a "non-existing problem", specially for something trivial like commit messages. But hey, it's about letting the tool guide your thoughts, man.
 
 When you call up the extension for a new commit, it throws options at you. Are we refactoring, adding a feature, tweaking docs, fixing bugs, writing tests, or messing with CI? Then, you pick an emoji for a single action (https://gitmoji.dev/). Only after that, you write your commit title and maybe a longer description, and a section addresssing breaking changes or issues that can be closed.
 
