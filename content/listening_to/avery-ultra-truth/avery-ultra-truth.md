@@ -11,4 +11,4 @@ draft: false
     caption="Daniel Avery - Ultra Truth"
     >}}
 
-Quick. Hop on a long train. Is it raining? Perfect. Grab a no __bs__ book and look outside now and then.
+Quick. Hop on a long train. Is it raining? Perfect. Grab a no __bs__ book and look outside every now and then.
