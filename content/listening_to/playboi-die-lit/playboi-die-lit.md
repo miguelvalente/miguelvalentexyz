@@ -14,7 +14,7 @@ draft: false
 
 
 {{< lyrics >}}
-Right Now
+Long Time (intro)
 .
 No cap and gown, I ain't go to class (Uh, yeah)
 I'd rather die before I come in last 
