@@ -1,50 +1,58 @@
 <style>
-/* For NEXTPREV.HTML */
-/* $spacing-full: 30px
-$wide-size: 890px */
 #nextprev {
     font-size: 80%;
-    overflow: hidden;
-    /* position: fixed; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin: 4% 4% 0px 4%;
-	/* The container for both the previous and next articles. */
-
-    /* height: 40px;
-    max-width: calc(890px - (30px * 2));
-    max-width: -webkit-calc(890px - (30px * 2));
-    position: relative;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: auto;
-    border-bottom: 1px solid #ececec;
-    padding: .5rem .3rem; */
+    font-family: 'Roboto', sans-serif;
 }
 #prevart {
-	float: right ;
-	text-align: right ;
+    text-align: right;
 }
 #nextart {
-	float: left ;
-	text-align: left ;
+    text-align: left;
 }
 
 #nextart, #prevart {
-  border: 2px solid #6c757d;
-  padding: 4px 8px;
-  border-radius: 10px;
+    /* background-color: #6c757d;
+    color: white; */
+    border: none;
+    padding: 8px 12px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    text-decoration: none;
 }
 
+#nextart:hover, #prevart:hover {
+    background-color: #5a6268;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
 
+#nextart a, #prevart a {
+    color: inherit;
+    text-decoration: none;
+}
+
+@media (max-width: 480px) {
+    #nextart, #prevart {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
 </style>
 
 {{ if or .NextInSection .PrevInSection -}}
     <div id="nextprev">
         {{- with .NextInSection -}}
-        <a href="{{ .RelPermalink}}"><div id="nextart" style="font-weight: bold;">Next:<br>{{.Title}}</div></a>
+        <div id="nextart" style="font-weight: bold;"><a href="{{ .RelPermalink }}">Next:<br>{{.Title}}</a></div>
         {{ end -}}
         {{- with .PrevInSection }}
-        <a href="{{ .RelPermalink}}"><div id="prevart" style="font-weight: bold;">Previous:<br>{{.Title}}</div></a>
+        <div id="prevart" style="font-weight: bold;"><a href="{{ .RelPermalink }}">Previous:<br>{{.Title}}</a></div>
         {{ end -}}
     </div>
 {{ end -}}
-
