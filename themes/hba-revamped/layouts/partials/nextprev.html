@@ -15,8 +15,6 @@
 }
 
 #nextart, #prevart {
-    /* background-color: #6c757d;
-    color: white; */
     border: none;
     padding: 8px 12px;
     border-radius: 10px;
@@ -27,14 +25,13 @@
 }
 
 #nextart:hover, #prevart:hover {
-    background-color: #5a6268;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
     transform: translateY(-2px);
 }
 
 #nextart a, #prevart a {
     color: inherit;
-    text-decoration: none;
+    display: block;
 }
 
 @media (max-width: 480px) {
@@ -49,10 +46,10 @@
 {{ if or .NextInSection .PrevInSection -}}
     <div id="nextprev">
         {{- with .NextInSection -}}
-        <div id="nextart" style="font-weight: bold;"><a href="{{ .RelPermalink }}">Next:<br>{{.Title}}</a></div>
+        <a href="{{ .RelPermalink }}" style="text-decoration: none;"><div id="nextart" style="font-weight: bold;">Next:<br>{{.Title}}</div></a>
         {{ end -}}
         {{- with .PrevInSection }}
-        <div id="prevart" style="font-weight: bold;"><a href="{{ .RelPermalink }}">Previous:<br>{{.Title}}</a></div>
+        <a href="{{ .RelPermalink }}" style="text-decoration: none;"><div id="prevart" style="font-weight: bold;">Previous:<br>{{.Title}}</div></a>
         {{ end -}}
     </div>
 {{ end -}}
