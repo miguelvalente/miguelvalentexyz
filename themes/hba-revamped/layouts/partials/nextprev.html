@@ -51,10 +51,10 @@
 {{ if or .NextInSection .PrevInSection -}}
     <div id="nextprev">
         {{- with .PrevInSection }}
-        <div><a href="{{ .RelPermalink }}" style="text-decoration: none;"><div id="prevart" style="font-weight: bold;">⬅️ Previous:<br>{{.Title}}</div></a></div>
+        <div><a href="{{ .RelPermalink }}" style="text-decoration: none;"><div id="prevart" style="font-weight: bold;">Previous:<br>{{.Title}}</div></a></div>
         {{ end -}}
         {{- with .NextInSection -}}
-        <div><a href="{{ .RelPermalink }}" style="text-decoration: none;"><div id="nextart" style="font-weight: bold;">➡️ Next:<br>{{.Title}}</div></a></div>
+        <div><a href="{{ .RelPermalink }}" style="text-decoration: none;"><div id="nextart" style="font-weight: bold;">Next:<br>{{.Title}}</div></a></div>
         {{ end -}}
     </div>
 {{ end -}}
