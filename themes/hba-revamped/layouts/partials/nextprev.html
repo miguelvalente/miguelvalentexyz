@@ -3,18 +3,13 @@
     font-size: 80%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     margin: 4% 4% 0px 4%;
     font-family: 'Roboto', sans-serif;
 }
-#prevart {
-    text-align: right;
-}
+#prevart,
 #nextart {
-    text-align: left;
-}
-
-#nextart, #prevart {
     border: none;
     padding: 8px 12px;
     border-radius: 10px;
@@ -22,34 +17,44 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     text-decoration: none;
+    text-align: center;
 }
 
-#nextart:hover, #prevart:hover {
+#nextart:hover,
+#prevart:hover {
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
     transform: translateY(-2px);
 }
 
-#nextart a, #prevart a {
+#nextprev > div {
+    flex-basis: 45%; /* Adjust the width as needed */
+    margin-bottom: 10px; /* Add margin between the buttons */
+}
+
+#nextart a,
+#prevart a {
     color: inherit;
     display: block;
 }
 
+#nextprev > div:first-child {
+    margin-right: 10px; /* Add right margin to the first button */
+}
+
 @media (max-width: 480px) {
-    #nextart, #prevart {
-        width: 100%;
-        text-align: center;
-        margin-bottom: 10px;
+    #nextprev > div {
+        flex-basis: 100%; /* Full width for mobile devices */
     }
 }
 </style>
 
 {{ if or .NextInSection .PrevInSection -}}
     <div id="nextprev">
-        {{- with .NextInSection -}}
-        <a href="{{ .RelPermalink }}" style="text-decoration: none;"><div id="nextart" style="font-weight: bold;">Next:<br>{{.Title}}</div></a>
-        {{ end -}}
         {{- with .PrevInSection }}
-        <a href="{{ .RelPermalink }}" style="text-decoration: none;"><div id="prevart" style="font-weight: bold;">Previous:<br>{{.Title}}</div></a>
+        <div><a href="{{ .RelPermalink }}" style="text-decoration: none;"><div id="prevart" style="font-weight: bold;">⬅️ Previous:<br>{{.Title}}</div></a></div>
+        {{ end -}}
+        {{- with .NextInSection -}}
+        <div><a href="{{ .RelPermalink }}" style="text-decoration: none;"><div id="nextart" style="font-weight: bold;">➡️ Next:<br>{{.Title}}</div></a></div>
         {{ end -}}
     </div>
 {{ end -}}
