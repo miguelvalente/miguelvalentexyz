@@ -229,6 +229,48 @@
     }
   }
 }
+#nextprev {
+    font-size: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4% 4% 0px 4%;
+    font-family: 'Roboto', sans-serif;
+    gap: 10px;
+}
+#prevart,
+#nextart {
+    border: none;
+    padding: 8px 12px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    width: 300px; /* Fixed width */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#nextart:hover,
+#prevart:hover {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+#nextart a,
+#prevart a {
+    color: inherit;
+    display: block;
+}
+
+@media (max-width: 480px) {
+    #nextprev {
+        flex-direction: column;
+    }
+}
 
 .post-updated-at {
   font-family: "Ubuntu mono", "monospace";
