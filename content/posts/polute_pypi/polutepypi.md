@@ -189,7 +189,7 @@ poetry build
 
 Step 5: Publish your project
 ```bash
-poetry build
+poetry publish
 ```
 
 And there you have it – a complete guide on how to publish a Python package that adds absolutely no value to the world. Perhaps you picked up a thing or two along the way, but let's be real, this was pretty useless. Congratulations, you've achieved peak annoyance, you're a python speedrunner. 
