@@ -12,7 +12,7 @@ _I'm neither a hardened freelancing veteran nor a backend specialist. So take my
 
 # The Switcheroo
 
-My role switched a lot, but I didn't mind. The so condemned context switching actually worked for me, unlike some Carl Newport shills might say. One moment, I was figuring out the project, looking at solutions and resources. The next, I was immersed in backend development, refining code, writing tests, and trying to get the darned CI to pass. Then, I was talking with the client, coming up with solutions on the spot, and nudging him in a direction that made more sense for development. To immediately after start drafting a UI that made sense and was minimal effort for the frontend developer I subcontracted and coordinated with. A lot of switching accompanied by a lot of freedom.
+My role switched a lot, but I didn't mind. The so condemned context switching actually worked for me, unlike some Carl Newport shills might say. One moment, I was figuring out the project, looking at solutions and resources. The next, I was immersed in backend development, refining code, writing tests, and trying to get the darned CI to pass. Then, I was talking with the client, coming up with solutions on the spot, and nudging him in a direction that made more sense for development. After these discussions, I immediately began drafting a UI that was both intuitive and straightforward, aiming to minimize the effort for the frontend developer I had subcontracted and was coordinating with. A lot of switching accompanied by a lot of freedom.
 
 # Tech Stack: Stumbling Blocks to Stepping Stones
 
@@ -101,13 +101,13 @@ And compare it to this rabbit hole.
 ```
 {{< /details>}}
 
-And oh, the debugging! No more wrestling matches. Just a quick install of debugpy, open the ports on the Docker container for the app, and voila! Debugging sorted. By the time the I signed the paper, I was ready with a stack and a sound project structure to build on.
+And oh, the debugging! No more wrestling matches. Just a quick install of debugpy, open the ports on the Docker container for the app, and voila! Debugging sorted. By the time I signed the paper, I was ready with a tech stack and a sound project structure to build on.
 
 # Contracts & Clocks
 
-In the end, it turned out that the toughest part of these two weeks wasn't all that tech stuff, but something way more mundane - bad contracts clauses and unrealistic time expectations.
+In the end, it turned out that the toughest part of these two weeks wasn't all that tech stuff, but something way more mundane - bad contract clauses and unrealistic time expectations.
 
-The contract we'd signed off on stated we'd be paid for a two regular work weeks. But here's the kicker - that sweet, sweet paycheck was only going to roll in if we hit certain milestones. A reasonable guarantee if you're working with some dude from the internet for the first time, without any solid portfolio to show off. So, even though on paper we seemed to be paid by the hour, in reality, it was a task-based payout system. Which turned into more hours that what we were gonna get paied for. A rookie mistake on our part, coupled with an overzealous but understandable stance from our client. Fair and square.
+The contract we'd signed off on stated we'd be paid for a two regular work weeks. But here's the kicker - that sweet, sweet paycheck was only going to roll in if we hit certain milestones. A reasonable guarantee if you're working with some dude from the internet for the first time, without any solid portfolio to show off. So, even though on paper we seemed to be paid by the hour, in reality, it was a task-based payout system. Which turned into more hours then what we were gonna get paid for. A rookie mistake on our part, coupled with an overzealous but understandable stance from our client. Fair and square.
 
 The solution to our first problem? After delivering the MVP, we rewrote the contract. The client, having seen our work, didn't bat an eyelid and agreed immediately. And before you think I'm painting the client as the villain here, even he hadn't spotted this snag. Once I explained the situation, he was on board with axing the 'no milestone, no pay' clause.
 
