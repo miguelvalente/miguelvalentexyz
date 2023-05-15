@@ -12,7 +12,7 @@ _I'm neither a hardened freelancing veteran nor a backend specialist. So take my
 
 # The Switcheroo
 
-My role switched a lot, but I didn't mind. The so condemned context switching actually worked for me, unlike some Carl Newport shills might say. One moment, I was figuring out the project, looking at solutions and resources. The next, I was immersed in backend development, refining code, writing tests, and trying to get the darned CI to pass. Then, I was talking with the client, coming up with solutions on the spot, and nudging him in a direction that made more sense for development. After these discussions, I immediately began drafting a UI that was both intuitive and straightforward, aiming to minimize the effort for the frontend developer I had subcontracted and was coordinating with. A lot of switching accompanied by a lot of freedom.
+My role switched a lot, but I didn't mind. One moment, I was figuring out the project, looking at solutions and resources. The next, I was immersed in backend development, refining code, writing tests, and trying to get the darned CI to pass. Then, I was talking with the client, coming up with solutions on the spot, and nudging him in a direction that made more sense for development. After these discussions, I immediately began drafting a UI that was both intuitive and straightforward, aiming to minimize the effort for the frontend developer I had subcontracted and was coordinating with. A lot of switching accompanied by a lot of freedom.
 
 # Tech Stack: Stumbling Blocks to Stepping Stones
 
