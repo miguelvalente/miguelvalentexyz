@@ -1,5 +1,5 @@
 ---
-title: "Glitch Mob Ctrl Al Real"
+title: "Glitch Mob - Ctrl Al Real"
 date: 2023-05-31T10:25:55+02:00
 draft: false
 ---

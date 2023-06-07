@@ -8,24 +8,25 @@
 
 <style>
 img {
-    border-radius: 20px;
-    user-select: none;
-    object-fit: cover;
+  border-radius: 20px;
+  user-select: none;
+  object-fit: cover;
 }
 </style>
-	{{- with .Get "link"}}<a href="{{.}}">{{ end -}}
-	<center>
 
-		<img src="{{ .Get "src" }}"
-		 
-	     {{- with .Get "width" }} width="{{.}}"{{ end -}}
-	     {{- with .Get "mouse" }} title="{{.}}"{{ end -}}
-	     {{- with .Get "alt" }} alt="{{.}}"{{ end -}}
-	>
-	</center>
-	{{- if .Get "link"}}</a>{{ end -}}
-	{{- with .Get "caption" -}}
-	<figcaption>
-	<i>{{- . -}}</i>
-	</figcaption>
-	{{- end -}}
+<div class="album-item">
+  {{- with .Get "link"}}<a href="{{.}}">{{ end -}}
+    <center>
+      <img src="{{ .Get "src" }}"
+           {{- with .Get "width" }} width="{{.}}"{{ end -}}
+           {{- with .Get "mouse" }} title="{{.}}"{{ end -}}
+           {{- with .Get "alt" }} alt="{{.}}"{{ end -}}
+      >
+    </center>
+    {{- if .Get "link"}}</a>{{ end -}}
+    {{- with .Get "caption" -}}
+      <figcaption>
+        <i>{{- . -}}</i>
+      </figcaption>
+    {{- end -}}
+</div>
