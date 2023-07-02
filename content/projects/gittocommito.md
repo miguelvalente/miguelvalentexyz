@@ -3,12 +3,16 @@ title: "🦔 Gitocommito: Automatic Commit Generation"
 date: 2023-07-02T17:04:05+02:00
 draft: false
 ---
-<p align="center">
-  <a href="https://github.com/miguelvalente/gitocommmito"><img src="https://github.com/miguelvalente/gitocommito/blob/master/assets/banner.png?raw=true" alt="GitoCommito"></a>
-</p>
-<p align="center">
-    <em>Let GitoCommito commit for you</em>
-</p>
+
+
+[![logo](https://github.com/miguelvalente/gitocommito/blob/master/assets/banner.png?raw=true)](https://github.com/miguelvalente/gitocommmito)
+
+{{< center color="" fontSize="1em" italic="true" >}}
+Let GitoCommito commit for you
+{{< /center >}}
+
+
+
 
 ## Features
 

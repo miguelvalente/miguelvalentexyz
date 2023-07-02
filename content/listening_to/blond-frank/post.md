@@ -11,7 +11,7 @@ draft: false
     caption="Frank Ocean - Blond"
     >}}
 
-{{< center >}}
+{{< center color="" fontSize="3em" >}}
 🐐
 {{< /center >}}
 
