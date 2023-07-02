@@ -1,5 +1,5 @@
 ---
-title: "🦔 Gittocommito: Automatic Commit Generation"
+title: "🦔 Gitocommito: Automatic Commit Generation"
 date: 2023-07-02T17:04:05+02:00
 draft: false
 ---
