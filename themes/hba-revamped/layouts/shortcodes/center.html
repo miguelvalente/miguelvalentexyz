@@ -1,4 +1,10 @@
-<div style="text-align:center; font-size: 3em;">
-    {{ .Inner }}
+{{ $inner := .Inner | safeHTML }}
+{{ $fontSize := .Get "fontSize" | safeCSS }}
+{{ $color := .Get "color" | safeCSS }}
+{{ $isItalic := .Get "italic" }}
+
+<div style="text-align: center; font-size: {{ $fontSize }}; color: {{ $color }}; font-style: {{ with $isItalic }}italic{{ else }}normal{{ end }};">
+    {{- $inner -}}
 </div>
+
 
