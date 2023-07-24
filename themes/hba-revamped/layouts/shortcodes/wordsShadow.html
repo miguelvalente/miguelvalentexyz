@@ -1,25 +1,27 @@
 {{ $inner := .Inner | safeHTML }}
-{{ $color := .Get "color" | safeCSS }}
 {{ $shadow := .Get "shadow" | safeCSS }}
+{{ $marginTop := .Get "marginTop" | safeCSS }}
 {{ $lineHeight := .Get "lineHeight" | safeCSS }}
 
+{{ $class := printf "wordsShadow-%d" (now.UnixNano) }}
+
 <style>
-.words {
+.{{ $class }} {
     text-align: center;
     white-space: pre-line;
     font-size: 1em;
-    line-height: {{$lineHeight}};
+    line-height: {{ $lineHeight }};
     font-family: 'roboto', sans-serif;
     font-weight: 400;
     border-radius: 4px;
     padding: 1em;
     padding-left: 0.8em;
+    color: transparent;
+    text-shadow: {{ $shadow }};
+    margin-top: {{ $marginTop }};
 }
 </style>
 
-<div class="words" style="color: {{ $color }}; text-shadow: {{ $shadow }};">
+<div class="{{ $class }}">
     <em>{{- $inner -}}</em>
 </div>
-
-
-
