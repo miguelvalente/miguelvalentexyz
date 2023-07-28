@@ -12,7 +12,7 @@ draft: false
     >}}
 
 {{< words color="" shadow="1px 13px 5px rgba(60,95,36, 1)" lineHeight="1.5">}}
-In the highest flattest step. Among breeze. In the middle of the night. Surrounded by spiders and skeletons. Afraid looking for a torch. I hadn't slept. Chased. Running, evading and jumping. When I used to not care at all. Simpler. Way, lost too. The way here. Where too I care. For when I used to not care at all, lost in all, looking for the way home where healing could begin, I listened to a lullaby.
+In the highest flattest step. Among breeze. In the middle of the night. Surrounded by spiders and skeletons. Afraid, looking for a torch. I hadn't slept. Chased. Running, evading and jumping. When I used to not care at all. Simpler. Way, lost too. The way here. Where too I care. For when I used to not care at all, lost in all, looking for the way home where healing could begin, I listened to a lullaby.
 {{</ words >}}
 
 {{< wordsShadow shadow="1px 1px 10px rgba(176,126,82, 1)" marginTop="-220px" lineHeight="1.5">}}
