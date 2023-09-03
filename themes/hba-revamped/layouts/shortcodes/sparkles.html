@@ -1,7 +1,6 @@
 {{ $minFrequency := .Get "minFrequency" | default "1" }}
 {{ $maxFrequency := .Get "maxFrequency" | default "3" }}
 {{ $sparkleCount := .Get "sparkleCount" | default "20" }}
-{{ $sparkleShadow := .Get "sparkleShadow" | safeCSS | default "0px 0px 5px #ccc" }}
 {{ $inner := .Inner | safeHTML }}
 {{ $color := .Get "color" | safeCSS }}
 {{ $shadow := .Get "shadow" | safeCSS }}
@@ -15,8 +14,6 @@
 }
 
 .words {
-    background: transparent;
-  border: 1px solid red; /* temporary, for debugging */
   display: inline-block;
   white-space: pre-line;
   font-size: 1em;
@@ -28,7 +25,6 @@
   padding-left: 0.8em;
   color: {{ $color }};
   text-shadow: {{ $shadow }};
-  z-index: 2;
 }
 
 .sparkle {
@@ -38,19 +34,26 @@
   background: linear-gradient(45deg, #ccc, #fff, #ccc);
   clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
   opacity: 1;
-  filter: drop-shadow(3px 3px 2px rgba(184, 9, 9, 0.3));
 }
 
+@keyframes sparkle-animation {
+  0% { opacity: 0; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.5); }
+  100% { opacity: 0; transform: scale(1); }
+}
 </style>
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  const container = document.querySelector('.sparkle-container');
+  const sparkleCount = {{ $sparkleCount }};
+  const albumItem = document.querySelector('.album-item');
   const minFrequency = 1;
   const maxFrequency = 3;
   
-  const sparkles = document.querySelectorAll('.sparkle');
-  sparkles.forEach(sparkle => {
+  // Using the `sparkleCount` variable populated from Hugo's templating engine
+  for(let i = 0; i < sparkleCount; i++) {
+    const sparkle = document.createElement('div');
+    sparkle.className = 'sparkle';
     const left = Math.random() * 100;
     const top = Math.random() * 100;
     const delay = Math.random() * 3;
@@ -58,25 +61,17 @@ document.addEventListener("DOMContentLoaded", function() {
     sparkle.style.left = `${left}%`;
     sparkle.style.top = `${top}%`;
     sparkle.style.animation = `sparkle-animation ${duration}s ${delay}s infinite`;
-  });
+    albumItem.appendChild(sparkle);
+  }
 });
 
 </script>
 
-<div class="sparkle-container" data-min-frequency="1" data-max-frequency="3">
-  <div class="sparkle" style="filter: drop-shadow(200px 200px 200px rgba(186, 4, 4, 0.3));"></div>
+<div class="sparkle-container" data-min-frequency="{{ $minFrequency }}" data-max-frequency="{{ $maxFrequency }}" s>
+  <div class="words">
     <em>{{- $inner -}}</em>
   </div>
-{{ range seq 0 $sparkleCount }}
-  <div class="sparkle"></div>
-{{ end }}
-
+  {{ range seq 0 $sparkleCount }}
+    <div class="sparkle"></div>
+  {{ end }}
 </div>
-
-<style>
-@keyframes sparkle-animation {
-  0% { opacity: 0; transform: scale(1); }
-  50% { opacity: 1; transform: scale(1.5); }
-  100% { opacity: 0; transform: scale(1); }
-}
-</style>
