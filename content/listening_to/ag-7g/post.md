@@ -13,18 +13,10 @@ draft: true
     >}}
 
 
+{{< sparkles shadow="2px 4px 3px #888" lineHeight="1.4" minFrequency="1"
+maxFrequency="3" sparkleCount="30" sparkleShadow="0px 0px 10px red" >}}
 
-{{< sparkles
-  shadow="2px 2px 8px #888"
-  lineHeight="1.4"
-  minFrequency="1"
-  maxFrequency="3" sparkleCount="30" sparkleShadow="0px 0px 10px red" >}}
- Past, present. Digitized. Nothing lived just once. Afraid of not losing.
- Cause maybe you're a bit fe-fe-fearful. Of not living, fear full of not
- appreciating. Never forgetting. An ever expanding library. upheld.
- Uniformity, duly deserved. Hold on for as long as I can. To me. As
- I want. My childish. Future, propensities. All of life, all of it on your
- hands. Why not. Everything you do its been done before and everything you
- say you said that yesterday.
-
-{{< /sparkles >}}
+Past, present. Digitised. Nothing lived once. Hold on
+for as long as I can. To me. As I want. My childish. Future, propensities.
+All of it. Why not. So hold on hold on hold on. To me.
+ {{< /sparkles >}}
