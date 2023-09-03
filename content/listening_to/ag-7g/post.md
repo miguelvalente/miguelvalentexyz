@@ -1,7 +1,7 @@
 ---
 title: "A.G. Cook - 7G"
 date: 2023-09-03T12:17:25+02:00
-draft: false
+draft: true
 ---
 
 
@@ -19,12 +19,12 @@ draft: false
   lineHeight="1.4"
   minFrequency="1"
   maxFrequency="3" sparkleCount="30" sparkleShadow="0px 0px 10px red" >}}
- While on a high I want to digitize my past. All of it. Every moment,
- never lived just once. the power relive, life. No more dragons. Squeeze
- it till nothing. Afraid of the lost of what should be forever gone.
- Uniqueness. Unjustifiably Upheld. Cause maybe you're a bit fe-fe-fearful.
- Uniformity, duly deserving. Hold on for as long as I can as I want. My
- childish. Future, propensities. All of life, all of it on your hands. Why
- not. Not moral enough.
+ Past, present. Digitized. Nothing lived just once. Afraid of not losing.
+ Cause maybe you're a bit fe-fe-fearful. Of not living, fear full of not
+ appreciating. Never forgetting. An ever expanding library. upheld.
+ Uniformity, duly deserved. Hold on for as long as I can. To me. As
+ I want. My childish. Future, propensities. All of life, all of it on your
+ hands. Why not. Everything you do its been done before and everything you
+ say you said that yesterday.
 
 {{< /sparkles >}}
