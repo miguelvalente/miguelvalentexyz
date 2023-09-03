@@ -1,0 +1,82 @@
+{{ $minFrequency := .Get "minFrequency" | default "1" }}
+{{ $maxFrequency := .Get "maxFrequency" | default "3" }}
+{{ $sparkleCount := .Get "sparkleCount" | default "20" }}
+{{ $sparkleShadow := .Get "sparkleShadow" | safeCSS | default "0px 0px 5px #ccc" }}
+{{ $inner := .Inner | safeHTML }}
+{{ $color := .Get "color" | safeCSS }}
+{{ $shadow := .Get "shadow" | safeCSS }}
+{{ $lineHeight := .Get "lineHeight" | safeCSS }}
+
+<style>
+.sparkle-container {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.words {
+    background: transparent;
+  border: 1px solid red; /* temporary, for debugging */
+  display: inline-block;
+  white-space: pre-line;
+  font-size: 1em;
+  line-height: {{ $lineHeight }};
+  font-family: 'roboto', sans-serif;
+  font-weight: 400;
+  border-radius: 4px;
+  padding: 1em;
+  padding-left: 0.8em;
+  color: {{ $color }};
+  text-shadow: {{ $shadow }};
+  z-index: 2;
+}
+
+.sparkle {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: linear-gradient(45deg, #ccc, #fff, #ccc);
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  opacity: 1;
+  filter: drop-shadow(3px 3px 2px rgba(184, 9, 9, 0.3));
+}
+
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const container = document.querySelector('.sparkle-container');
+  const minFrequency = 1;
+  const maxFrequency = 3;
+  
+  const sparkles = document.querySelectorAll('.sparkle');
+  sparkles.forEach(sparkle => {
+    const left = Math.random() * 100;
+    const top = Math.random() * 100;
+    const delay = Math.random() * 3;
+    const duration = Math.random() * (maxFrequency - minFrequency) + minFrequency;
+    sparkle.style.left = `${left}%`;
+    sparkle.style.top = `${top}%`;
+    sparkle.style.animation = `sparkle-animation ${duration}s ${delay}s infinite`;
+  });
+});
+
+</script>
+
+<div class="sparkle-container" data-min-frequency="1" data-max-frequency="3">
+  <div class="sparkle" style="filter: drop-shadow(200px 200px 200px rgba(186, 4, 4, 0.3));"></div>
+    <em>{{- $inner -}}</em>
+  </div>
+{{ range seq 0 $sparkleCount }}
+  <div class="sparkle"></div>
+{{ end }}
+
+</div>
+
+<style>
+@keyframes sparkle-animation {
+  0% { opacity: 0; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.5); }
+  100% { opacity: 0; transform: scale(1); }
+}
+</style>
