@@ -1,7 +1,7 @@
 ---
 title: "Frank Ocean - Blond 🐐"
 date: 2023-06-17T21:34:22+02:00
-draft: false
+draft: true
 ---
 
 {{< albumcover
