@@ -1,7 +1,7 @@
 ---
 title: "Daniel Avery - Ultra Truth"
 date: 2023-04-02T23:36:42+02:00
-draft: false
+draft: true
 ---
 
 {{< albumcover
