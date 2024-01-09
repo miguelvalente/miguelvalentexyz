@@ -1,7 +1,7 @@
 ---
 title: "Fluent Python -- Chapters 1 & 2"
 date: 2023-03-21T11:21:25+01:00
-draft: false
+draft: true
 ---
 
 {{< img_square src="/posts/fluent_python_1_2/book.webp" >}}

@@ -1,7 +1,7 @@
 ---
 title: "Fluent Python -- Chapter 17"
 date: 2023-04-05T15:02:50+02:00
-draft: false 
+draft: true
 ---
 
 {{< img_square src="/posts/fluent_python_17/book_50.webp" >}}
