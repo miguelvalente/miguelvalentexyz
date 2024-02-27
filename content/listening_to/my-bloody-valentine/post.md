@@ -14,5 +14,5 @@ draft: false
     >}}
 
 {{< words color="" shadow="1px 13px 5px rgba(36,17,83, 1)" lineHeight="1.5">}}
-Num caminho de dunas do tempo passado, a flor seca que seca ficou. Quando não lembrava mais, de quando me esqueci mais. Da flor seca que seca sempre foi. Após o deserto caminhado. A miséria, desperdiçada num miserável. Não entristeças. Enquanto a flor seca, que seca sempre foi estiver aberta estarei miserável. Mas miserável não serei com o caminho de dunas lembrado.
+Num caminho de dunas dum tempo passado, uma flor seca, secou. Quando não me lembrava mais, quando me esqueci mais. Da flor seca que seca sempre foi. Após o deserto caminhado. Quase a miséria, desperdiçada num miserável. Não entristeças. Flor seca, estarei miserável. Mas miserável não serei com o caminho de dunas lembrado.
 {{</ words >}}
