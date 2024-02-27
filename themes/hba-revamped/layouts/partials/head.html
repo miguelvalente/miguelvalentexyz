@@ -1,9 +1,9 @@
 <head>
+  <link rel="preload" as="image" href="/panteao.webp" /> 
   {{ partial "meta/main.html" . }}
   {{ hugo.Generator }}
 
   {{/*  <!-- Permalink & RSSlink -->  */}}
-
   <link rel="canonical" href="{{ .Permalink }}">
   {{- with .OutputFormats.Get "RSS" }}
   <link href="{{ .Permalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}">
