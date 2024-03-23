@@ -8,7 +8,6 @@ It's built using [Hugo](https://gohugo.io)
 
 1. Install Hugo (see [instructions](https://gohugo.io/getting-started/installing/))
 2. Clone this repo
-3. Run bash
     ```
     hugo server
     ```
