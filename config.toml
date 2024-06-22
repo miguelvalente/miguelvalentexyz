@@ -13,54 +13,54 @@ enableEmoji = true
 
 # set markup.highlight.noClasses=false to enable code highlight
 [markup]
-  [markup.highlight]
-    noClasses = false
+[markup.highlight]
+noClasses = false
 
 [menu]
-  # [[menu.main]] 101010101010101010
-  #   # The page reference (pageRef) is useful for menu highlighting
-  #   # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
-  #   pageRef="/"
-  #   name = 'Home'
-  #   url = '/'
-  #   weight = 10
-  # [[menu.main]]
-  #   pageRef="posts"
-  #   name = 'posts'
-  #   url = '/posts/'
-  #   weight = 10
-  [[menu.main]]
-    pageRef="about"
-    name = 'about'
-    url = '/about/'
-    weight = 20
-  [[menu.main]]
-    pageRef="projects"
-    name = 'projects'
-    url = '/projects/'
-    weight = 30
-  [[menu.main]]
-    pageRef="resume"
-    name = 'resume'
-    url = '/cv.pdf'
-    weight = 50
-  [[menu.main]]
-    pageRef="listening_to"
-    name = 'listening_to'
-    url = '/listening_to/'
-    weight = 60
+# [[menu.main]] 101010101010101010
+#   # The page reference (pageRef) is useful for menu highlighting
+#   # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
+#   pageRef="/"
+#   name = 'Home'
+#   url = '/'
+#   weight = 10
+# [[menu.main]]
+#   pageRef="posts"
+#   name = 'posts'
+#   url = '/posts/'
+#   weight = 10
+[[menu.main]]
+pageRef = "about"
+name = 'about'
+url = '/about/'
+weight = 20
+# [[menu.main]]
+#   pageRef="projects"
+#   name = 'projects'
+#   url = '/projects/'
+#   weight = 30
+[[menu.main]]
+pageRef = "resume"
+name = 'resume'
+url = '/cv.pdf'
+weight = 50
+[[menu.main]]
+pageRef = "listening_to"
+name = 'listening_to'
+url = '/listening_to/'
+weight = 60
 
 [params]
-  sitename = "miguelvalente.xyz"
-  defaultColor = "light" # set default color mode: dark or light
-  description = "my personal website"
-  nextprev = true
+sitename = "miguelvalente.xyz"
+defaultColor = "light"              # set default color mode: dark or light
+description = "my personal website"
+nextprev = true
 
 [params.author]
-  avatar = "panteao.webp"
-  # intro = "miguelvalente"
-  name = "Miguel Valente"
-  # description = "Hi my name is Miguel check by"
+avatar = "panteao.webp"
+# intro = "miguelvalente"
+name = "Miguel Valente"
+# description = "Hi my name is Miguel check by"
 
 [[params.socialIcons]]
 name = "github"
