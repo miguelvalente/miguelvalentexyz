@@ -3,13 +3,13 @@
     <header class="header">
         <h1 class="header-title center">{{ .Title }}</h1>
     </header>
+
     <main class="page-content" aria-label="Content">
         {{ $mysection := ($.Site.GetPage "section" .Section).Pages }}
         <!-- Prints the latest album  -->
         {{ range first 1 $mysection }}
             {{ partial "album" . }}
         {{ end }}
-
 
 
         <h3>listened_to 🎶</h3>
