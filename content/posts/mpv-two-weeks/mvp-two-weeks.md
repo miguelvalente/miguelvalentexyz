@@ -1,7 +1,7 @@
 ---
 title: "Two Weeks, One WebApp: Trading Deep Learning for Freelancing"
 date: 2023-05-09T15:15:01+02:00
-draft: false
+draft: true
 ---
 
 

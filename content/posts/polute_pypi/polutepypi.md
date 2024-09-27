@@ -1,7 +1,7 @@
 ---
 title: "⚡️️Python Package Publishing Speedrun️⚡"
 date: 2023-04-13T16:59:15+02:00
-draft: false
+draft: true
 ---
 
 {{< img_square src="/posts/polute_pypi/speed.jpeg" >}}
