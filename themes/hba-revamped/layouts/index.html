@@ -8,13 +8,16 @@
             {{ partial "bio" . }}
             <main aria-label="Content">
                 <!-- <h3 class="posts-item-note" aria-label="Recent Posts">Recent Posts</h3> -->
-                {{/* Show last 5 posts in reverse date order */}}
-                {{ $posts := .Site.RegularPages.ByDate.Reverse }}
-                {{ range $posts }}
-                    {{ if eq .Type "posts" }}
-                        {{ partial "postCard" . }}
-                    {{ end }}
+            {{/* Show last 5 posts in reverse date order */}}
+            {{ $posts := .Site.RegularPages.ByDate.Reverse }}
+
+            {{/* Display the first post as an album */}}
+            {{ range $posts }}
+                {{ if eq .Type "listening_to" }}
+                    {{ partial "album" . }}
                 {{ end }}
+            {{ end }}
+
             </main>
         {{- partial "footer.html" . -}}
         </div>
